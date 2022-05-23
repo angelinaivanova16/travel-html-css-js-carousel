@@ -19,16 +19,17 @@ body {
 .container {
  width: 1440px;
  margin: 0 auto;
- padding: 0 20px;
+ /* padding: 0 20px; */
 }
 
 /* .............................................. header .............................................. */
 
 .header-container {
  display: flex;
- justify-content: space-around;
+ justify-content: space-between;
  align-items: center;
 
+ padding: 0 120px;
  height: 90px;
  background: url('./assets/img/garrett-parker.jpg');
  background-repeat: no-repeat;
@@ -44,6 +45,7 @@ body {
 
  list-style: none;
  width: 527px;
+ padding-right: 79px;
 }
 
 .nav-link {
@@ -99,4 +101,5 @@ body {
  font-size: 32px;
  line-height: 39px;
  color: #FFFFFF;
+ padding-left: 5px;
 }
