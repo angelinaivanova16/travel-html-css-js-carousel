@@ -18,6 +18,10 @@
  font-family: Aleo-Italic;
  src: url("assets/fonts/Aleo-Italic.ttf");
 }
+@font-face {
+ font-family: Aleo-Regular;
+ src: url("assets/fonts/Aleo-Regular.ttf");
+}
 
 html {
  scroll-behavior: smooth;
@@ -122,7 +126,7 @@ body {
 
 
 .plan {
- height: 765px;
+ /* height: 765px; */
  padding: 32px 428px 221px 120px;
  background: url('./assets/img/garrett-parker.jpg');
  background-position: center -90px;
@@ -199,4 +203,66 @@ h1 {
 .btn2:hover {
  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
  border-radius: 3px;
+}
+
+/* .............................................. section How It Works .............................. */
+
+.how-it-works {
+ height: 424px;
+ padding: 80px 117px 97px 146px;
+ background-color: #FFFFFF;
+}
+
+.howitworks-content {
+ border: 1px solid black;
+ width: 1177px;
+ height: 247px;
+
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.steps-text {
+ width: 1177px;
+ display: flex;
+ justify-content: space-between;
+}
+.step, .step-correct {
+ font-family: Aleo-Regular;
+ font-size: 20px;
+ line-height: 24px;
+ color: #0D606F;
+ margin: 0;
+}
+.step-correct {
+ padding-left: 40px;
+}
+
+.steps-icons {
+ width: 994px;
+ display: flex;
+ justify-content: space-between;
+ margin-right: 33px;
+ margin-top: 10px;
+}
+
+.steps-icon {
+ width: 100px;
+ height: 100px;
+ background-color: #F2785C;
+ border-radius: 16px;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+h2 {
+ font-family: RedHatText-Medium;
+ font-size: 40px;
+ line-height: 53px;
+ color: #F2785C;
+ margin: 0 17px 0 0;
 }
