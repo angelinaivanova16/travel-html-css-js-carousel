@@ -214,7 +214,7 @@ h1 {
 }
 
 .howitworks-content {
- border: 1px solid black;
+ /* border: 1px solid black; */
  width: 1177px;
  height: 247px;
 
@@ -264,5 +264,36 @@ h2 {
  font-size: 40px;
  line-height: 53px;
  color: #F2785C;
- margin: 0 17px 0 0;
+ margin: 1px 14px 0 0;
+}
+
+/* .............................................. destinations .............................. */
+
+.destinations-content {
+ height: 1042px;
+ background-color: #FFFFFF;
+
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.destinations {
+ height: 800px;
+ display: flex;
+ justify-content: space-between;
+}
+
+.des-1 {
+ width: 260px;
+ background-image: url('./assets/img/des1.jpg');
+}
+.des-2 {
+ width: 800px;
+ background-image: url('./assets/img/des2.jpg');
+}
+.des-3 {
+ width: 260px;
+ background-image: url('./assets/img/des3.jpg');
 }
