@@ -208,7 +208,7 @@ h1 {
 /* .............................................. section How It Works .............................. */
 
 .how-it-works {
- height: 424px;
+ /* height: 424px; */
  padding: 80px 117px 97px 146px;
  background-color: #FFFFFF;
 }
@@ -259,7 +259,7 @@ h1 {
  align-items: center;
 }
 
-h2 {
+h2, .des-header {
  font-family: RedHatText-Medium;
  font-size: 40px;
  line-height: 53px;
@@ -281,8 +281,14 @@ h2 {
 
 .destinations {
  height: 800px;
+ width: 1440px;
  display: flex;
  justify-content: space-between;
+ margin-bottom: -18px;
+}
+
+.des-header {
+ margin: 0;
 }
 
 .des-1 {
@@ -292,8 +298,48 @@ h2 {
 .des-2 {
  width: 800px;
  background-image: url('./assets/img/des2.jpg');
+
+ display: flex;
+ flex-direction: column;
+ justify-content: end;
 }
 .des-3 {
  width: 260px;
  background-image: url('./assets/img/des3.jpg');
+
+ display: flex;
+ flex-direction: column;
+ justify-content: end;
+}
+.des-text, .des-text2 {
+ font-family: RedHatText-Medium;
+ font-size: 32px;
+ line-height: 42px;
+ color: #FFFFFF;
+ padding: 0 0 4px 15px;
+}
+.des-text2 {
+ padding: 0 0 8px 15px;
+
+}
+
+.frame-ellipse {
+ /* border: 1px solid black; */
+ width: 80px;
+ height: 20px;
+
+ display: flex;
+ justify-content: space-between;
+}
+.ellipse, .ellipse-main {
+ width: 20px;
+ height: 20px;
+ background-color: rgba(242, 120, 92, 0.5);
+ border-radius: 50%;
+}
+.ellipse-main {
+ background-color: #F2785C;
+}
+.arrow {
+ margin-right: 10px;
 }
