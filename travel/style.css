@@ -347,9 +347,12 @@ h2, .des-header {
 /* .............................................. stories .............................. */
 
 .stories-content {
- padding: 80px 117px 97px 146px;
- height: 1322px;
- background-image: url('./assets/img/footerbg.jpg');
+ padding: 80px 117px 0 146px;
+ height: 1365px;
+ background-image: 
+  linear-gradient(to top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+  url('./assets/img/footerbg.jpg');
+ /* background-image: url('./assets/img/footerbg.jpg'); */
  /* opacity: 50%; */
  background-position: center 173px;
  background-repeat: no-repeat;
@@ -364,4 +367,22 @@ h2, .des-header {
   border: 1px solid red;
  width: 1200px;
  height: 250px;
+}
+
+/* .............................................. stories .............................. */
+
+.foot {
+  /* height: 61px; */
+  background-image: url('./assets/img/footerbg.jpg');
+  background-position: center -1270px;
+  background-repeat: no-repeat;
+  padding: 14px 123px 13px 590px;
+}
+.footer-container {
+  border: 1px solid green;
+  width: 729px;
+  height: 34px;
+
+  display: flex;
+  justify-content: space-between;
 }
