@@ -372,17 +372,35 @@ h2, .des-header {
 /* .............................................. stories .............................. */
 
 .foot {
-  /* height: 61px; */
-  background-image: url('./assets/img/footerbg.jpg');
-  background-position: center -1270px;
-  background-repeat: no-repeat;
-  padding: 14px 123px 13px 590px;
+ /* height: 61px; */
+ background-image: url('./assets/img/footerbg.jpg');
+ background-position: center -1270px;
+ background-repeat: no-repeat;
+ padding: 14px 123px 13px 590px;
 }
 .footer-container {
-  border: 1px solid green;
-  width: 729px;
-  height: 34px;
+ /* border: 1px solid black; */
+ width: 729px;
+ height: 34px;
 
-  display: flex;
-  justify-content: space-between;
+ display: flex;
+ justify-content: space-between;
+}
+.footer-text {
+ font-family: RedHatText-Medium;
+ font-size: 16px;
+ line-height: 21px;
+ color: #FFFFFF;
+ padding-top: 5px;
+}
+.social-links {
+ width: 141px;
+ height: 34px;
+ display: flex;
+ justify-content: space-between;
+}
+.soc-link {
+ width: 34px;
+ height: 34px;
+ padding: 0 2px 0 0;
 }
