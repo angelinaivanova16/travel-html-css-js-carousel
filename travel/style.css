@@ -343,3 +343,25 @@ h2, .des-header {
 .arrow {
  margin-right: 10px;
 }
+
+/* .............................................. stories .............................. */
+
+.stories-content {
+ padding: 80px 117px 97px 146px;
+ height: 1322px;
+ background-image: url('./assets/img/footerbg.jpg');
+ /* opacity: 50%; */
+ background-position: center 173px;
+ background-repeat: no-repeat;
+ 
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.story {
+  border: 1px solid red;
+ width: 1200px;
+ height: 250px;
+}
