@@ -363,10 +363,48 @@ h2, .des-header {
  align-items: center;
 }
 
+.all-stories {
+ height: 1270px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+}
+
 .story {
-  border: 1px solid red;
+ /* border: 1px solid red; */
  width: 1200px;
  height: 250px;
+ display: flex;
+ justify-content: space-between;
+}
+
+.story-text {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+.story-image {
+ width: 400px;
+ height: 250px;
+ border-radius: 16px;
+}
+
+h3 {
+ font-family: Aleo-Regular;
+ font-size: 35px;
+ line-height: 42px;
+ color: #0D606F;
+ margin: 0;
+}
+
+.story-description {
+ width: 760px;
+ font-family: Aleo-Regular;
+ font-size: 20px;
+ line-height: 24px;
+ color: #0D606F;
 }
 
 /* .............................................. stories .............................. */
