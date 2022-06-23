@@ -35,7 +35,6 @@ body {
 .container {
  width: 1440px;
  margin: 0 auto;
- /* padding: 0 20px; */
 }
 
 /* .............................................. header .............................................. */
@@ -86,7 +85,6 @@ body {
  border-radius: 10px;
  background-color: #0D606F;
  cursor: pointer;
- /* font-family: inherit; */
 
  font-family: RedHatText-Medium;
  font-size: 16px;
@@ -126,7 +124,6 @@ body {
 
 
 .plan {
- /* height: 765px; */
  padding: 32px 428px 221px 120px;
  background: url('./assets/img/garrett-parker.jpg');
  background-position: center -90px;
@@ -134,7 +131,6 @@ body {
 }
 
 .plan-content {
- /* border: 1px solid black; */
  width: 892px;
  height: 422px;
 
@@ -208,13 +204,11 @@ h1 {
 /* .............................................. section How It Works .............................. */
 
 .how-it-works {
- /* height: 424px; */
  padding: 80px 117px 97px 146px;
  background-color: #FFFFFF;
 }
 
 .howitworks-content {
- /* border: 1px solid black; */
  width: 1177px;
  height: 247px;
 
@@ -324,7 +318,6 @@ h2, .des-header {
 }
 
 .frame-ellipse {
- /* border: 1px solid black; */
  width: 80px;
  height: 20px;
 
@@ -352,8 +345,6 @@ h2, .des-header {
  background-image: 
   linear-gradient(to top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
   url('./assets/img/footerbg.jpg');
- /* background-image: url('./assets/img/footerbg.jpg'); */
- /* opacity: 50%; */
  background-position: center 173px;
  background-repeat: no-repeat;
  
@@ -367,12 +358,11 @@ h2, .des-header {
  height: 1270px;
  display: flex;
  flex-direction: column;
- justify-content: space-around;
+ justify-content: space-between;
  align-items: center;
 }
 
 .story {
- /* border: 1px solid red; */
  width: 1200px;
  height: 250px;
  display: flex;
@@ -384,11 +374,19 @@ h2, .des-header {
  flex-direction: column;
  justify-content: space-between;
 }
-
-.story-image {
+.figure {
  width: 400px;
  height: 250px;
+ overflow: hidden;
  border-radius: 16px;
+ box-shadow: 0 4px 4px rgba(13, 96, 111, 1);
+}
+.story-image {
+ width: 100%;
+}
+.story-image2 {
+ width: 100%;
+ margin: -44% 0 0 0;
 }
 
 h3 {
@@ -407,17 +405,15 @@ h3 {
  color: #0D606F;
 }
 
-/* .............................................. stories .............................. */
+/* .............................................. footer .............................. */
 
 .foot {
- /* height: 61px; */
  background-image: url('./assets/img/footerbg.jpg');
  background-position: center -1270px;
  background-repeat: no-repeat;
  padding: 14px 123px 13px 590px;
 }
 .footer-container {
- /* border: 1px solid black; */
  width: 729px;
  height: 34px;
 
