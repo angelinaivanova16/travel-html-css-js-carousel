@@ -176,7 +176,7 @@ h1 {
  line-height: 29px;
  color: #F2785C;
 }
-.btn2 {
+.btn2, .btn3 {
  display: flex;
  justify-content: center;
  align-items: center;
@@ -271,6 +271,7 @@ h2, .des-header {
  flex-direction: column;
  justify-content: space-between;
  align-items: center;
+ margin-bottom: 80px;
 }
 
 .destinations {
@@ -340,12 +341,12 @@ h2, .des-header {
 /* .............................................. stories .............................. */
 
 .stories-content {
- padding: 80px 117px 0 146px;
- height: 1365px;
+ padding-left: 17px;
+ /* height: 1365px; */
  background-image: 
   linear-gradient(to top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
   url('./assets/img/footerbg.jpg');
- background-position: center 173px;
+ background-position: center 95px;
  background-repeat: no-repeat;
  
  display: flex;
@@ -355,11 +356,12 @@ h2, .des-header {
 }
 
 .all-stories {
- height: 1270px;
+ height: 1090px;
  display: flex;
  flex-direction: column;
  justify-content: space-between;
  align-items: center;
+ padding: 80px 28px 10px 10px;
 }
 
 .story {
@@ -383,10 +385,16 @@ h2, .des-header {
 }
 .story-image {
  width: 100%;
+ margin-top: -2%;
 }
 .story-image2 {
  width: 100%;
- margin: -44% 0 0 0;
+ margin-top: -44%;
+}
+.story-image3 {
+ width: 100%;
+ margin-top: -4%;
+
 }
 
 h3 {
@@ -403,6 +411,11 @@ h3 {
  font-size: 20px;
  line-height: 24px;
  color: #0D606F;
+ padding-top: 2px;
+}
+
+.btn3 {
+ margin: 28px 28px 41px 10px;
 }
 
 /* .............................................. footer .............................. */
@@ -425,7 +438,7 @@ h3 {
  font-size: 16px;
  line-height: 21px;
  color: #FFFFFF;
- padding-top: 5px;
+ padding-top: 7px;
 }
 .social-links {
  width: 141px;
