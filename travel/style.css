@@ -72,6 +72,7 @@ body {
 }
 .nav-link:hover {
  opacity: 0.5;
+ font-size: 17px;
 }
 
 .btn {
@@ -97,6 +98,8 @@ body {
 .btn:hover {
  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
  border-radius: 3px;
+ font-size: 17px;
+ /* transform: translateY(-7px); */
 }
 
 .logo {
@@ -199,6 +202,7 @@ h1 {
 .btn2:hover {
  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
  border-radius: 3px;
+ font-size: 25px;
 }
 
 /* .............................................. section How It Works .............................. */
@@ -247,10 +251,17 @@ h1 {
  height: 100px;
  background-color: #F2785C;
  border-radius: 16px;
+ transition: 0.3s;
+ cursor: pointer;
 
  display: flex;
  justify-content: center;
  align-items: center;
+}
+
+.steps-icon:hover {
+ border-radius: 3px;
+ opacity: 0.7;
 }
 
 h2, .des-header {
@@ -414,9 +425,25 @@ h3 {
  padding-top: 2px;
 }
 
+.read-more {
+ text-decoration: underline;
+ font-weight: bold;
+ cursor: pointer;
+ transition: 0.3s;
+}
+.read-more:hover {
+ font-size: 21px;
+}
+
 .btn3 {
  margin: 28px 28px 41px 10px;
 }
+.btn3:hover {
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+ border-radius: 3px;
+ font-size: 25px;
+}
+
 
 /* .............................................. footer .............................. */
 
@@ -450,4 +477,9 @@ h3 {
  width: 34px;
  height: 34px;
  padding: 0 2px 0 0;
+ transition: 0.3s;
+ cursor: pointer;
+}
+.soc-link:hover {
+ opacity: 0.5;
 }
