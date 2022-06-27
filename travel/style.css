@@ -110,8 +110,10 @@ body {
 }
 .image-logo {
  background-image: url("./assets/svg/logo.svg");
+ background-repeat: no-repeat;
  width: 30px;
  height: 30px;
+ padding: 0 0 8px 0;
 }
 .text-logo {
  font-family: Magra-Bold;
@@ -290,7 +292,7 @@ h2, .des-header {
  width: 1440px;
  display: flex;
  justify-content: space-between;
- margin-bottom: -18px;
+ margin-bottom: -24px;
 }
 
 .des-header {
@@ -322,17 +324,17 @@ h2, .des-header {
  font-size: 32px;
  line-height: 42px;
  color: #FFFFFF;
- padding: 0 0 4px 15px;
+ padding: 0 0 9px 15px;
 }
 .des-text2 {
- padding: 0 0 8px 15px;
+ padding: 0 0 13px 15px;
 
 }
 
 .frame-ellipse {
  width: 80px;
  height: 20px;
-
+ margin-bottom: -10px;
  display: flex;
  justify-content: space-between;
 }
@@ -436,13 +438,19 @@ h3 {
 }
 
 .btn3 {
- margin: 28px 28px 41px 10px;
+ margin: 28px 26px 41px 10px;
+ padding: 4px 8px 0 0;
 }
 .btn3:hover {
  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
  border-radius: 3px;
  font-size: 25px;
 }
+
+.arrow2 {
+ padding-right: 8px;
+}
+
 
 
 /* .............................................. footer .............................. */
