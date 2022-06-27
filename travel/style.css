@@ -470,8 +470,11 @@ h3 {
 .social-links {
  width: 141px;
  height: 34px;
+ list-style: none;
  display: flex;
  justify-content: space-between;
+ align-items: center;
+ margin: 0;
 }
 .soc-link {
  width: 34px;
