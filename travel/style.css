@@ -497,15 +497,24 @@ h3 {
 
 /* .............................................. burger-menu .............................. */
 
+.hamburger {
+ display: none;
+}
+
 .hamburger .line{
- width: 50px;
- height: 5px;
+ /* width: 26px;
+ height: 2px; */
  background-color: #FFFFFF;
  display: block;
- margin: 8px auto;
+ /* margin: 5px auto; */
  -webkit-transition: all 0.3s ease-in-out;
  -o-transition: all 0.3s ease-in-out;
  transition: all 0.3s ease-in-out;
+}
+.line {
+ width: 26px;
+ height: 2.5px;
+ margin: 5px auto;
 }
 
 .hamburger:hover{
@@ -528,4 +537,72 @@ h3 {
  -ms-transform: translateY(-13px) rotate(-45deg);
  -o-transform: translateY(-13px) rotate(-45deg);
  transform: translateY(-13px) rotate(-45deg);
+}
+
+
+/* .............................................. @media .............................................. */
+
+@media screen and (max-width: 391px) {
+
+ .hamburger {
+  display: block;
+  padding-right: 10px;
+ }
+
+ .container {
+  width: 391px;
+  margin: 0 auto;
+ }
+
+ .navig, .text-logo, .btn, h1, .plan-subheading {
+  display: none;
+ }
+
+ .header-container {
+  background: url('./assets/img/garrett-parker-mobile.jpg');
+  background-position: center 0;
+  padding: 0 16px;
+  height: 120px;
+  box-shadow: none;
+ }
+
+ .plan {
+  background: url('./assets/img/garrett-parker-mobile.jpg');
+  background-position: center -120px;
+  background-repeat: no-repeat;
+  /* height: 131px; */
+  padding: 0;
+ }
+
+ .image-logo {
+  width: 29px;
+  padding: 0;
+ }
+
+ .search {
+  width: 360px;
+  height: 48px;
+  margin-bottom: 39px;
+ }
+ .search-text {
+  width: 226px;
+  height: 11px;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 0 3px 8px;
+ }
+ .btn2 {
+  width: 92px;
+  height: 30px;
+  font-size: 11px;
+  line-height: 15px;
+ }
+ .plan-content {
+  height: 131px;
+  width: 391px;
+  justify-content: center;
+  align-items: center;
+ }
+
 }
