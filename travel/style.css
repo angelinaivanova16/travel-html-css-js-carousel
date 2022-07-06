@@ -526,17 +526,17 @@ h3 {
 }
 
 #burger.is-active .line:nth-child(1){
- -webkit-transform: translateY(13px) rotate(45deg);
- -ms-transform: translateY(13px) rotate(45deg);
- -o-transform: translateY(13px) rotate(45deg);
- transform: translateY(13px) rotate(45deg);
+ -webkit-transform: translateY(8px) rotate(45deg);
+ -ms-transform: translateY(8px) rotate(45deg);
+ -o-transform: translateY(8px) rotate(45deg);
+ transform: translateY(8px) rotate(45deg);
 }
 
 #burger.is-active .line:nth-child(3){
- -webkit-transform: translateY(-13px) rotate(-45deg);
- -ms-transform: translateY(-13px) rotate(-45deg);
- -o-transform: translateY(-13px) rotate(-45deg);
- transform: translateY(-13px) rotate(-45deg);
+ -webkit-transform: translateY(-8px) rotate(-45deg);
+ -ms-transform: translateY(-8px) rotate(-45deg);
+ -o-transform: translateY(-8px) rotate(-45deg);
+ transform: translateY(-8px) rotate(-45deg);
 }
 
 
@@ -603,6 +603,34 @@ h3 {
   width: 391px;
   justify-content: center;
   align-items: center;
+ }
+ .how-it-works {
+  padding: 20px 15px;
+ }
+
+ .howitworks-content {
+  width: 360px;
+  height: 153px;
+ }
+
+ h2 {
+  font-size: 14px;
+  line-height: 19px;
+ }
+ .steps-text {
+  width: 360px;
+  height: 24px;
+ }
+ .step {
+  font-size: 10px;
+  line-height: 12px;
+ }
+ .steps-icons {
+  width: 360px;
+ }
+ .steps-icon {
+  width: 70px;
+  height: 70px;
  }
 
 }
