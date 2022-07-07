@@ -668,6 +668,7 @@ h3 {
  .destinations-content {
   width: 391px;
   height: 289px;
+  margin: 0;
  }
 
  .des-header {
@@ -745,5 +746,23 @@ h3 {
   height: 30px;
  }
 
+ .story {
+  width: 360px;
+  height: 130px;
+ }
+ .figure {
+  width: 155px;
+  height: 130px;
+ }
+ h3 {
+  font-family: Aleo-Bold;
+  font-size: 11px;
+  line-height: 13px;
+ }
+ .story-description {
+  font-size: 9px;
+  line-height: 11px;
+  width: 195px;
+ }
 
 }
