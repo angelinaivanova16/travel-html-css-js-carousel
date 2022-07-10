@@ -599,7 +599,7 @@ h3 {
   margin: 0;
   padding: 0 0 3px 8px;
  }
- .btn2 {
+ .btn2, .btn3 {
   width: 92px;
   height: 30px;
   font-size: 11px;
@@ -712,7 +712,7 @@ h3 {
  .ellipse-mobile {
   background-color: #F2785C;
  }
- .arrow {
+ .arrow, .arrow2 {
   width: 10px;
   margin-right: 5px;
  }
@@ -763,6 +763,29 @@ h3 {
   font-size: 9px;
   line-height: 11px;
   width: 195px;
+ }
+
+ .all-stories {
+  height: 628px;
+  padding: 0 0 0 0;
+ }
+
+ .stories-content {
+  height: 657px;
+  padding: 20px 0 0 0;
+ }
+
+ .footer-container {
+  width: 141px;
+ }
+ .foot {
+  padding: 15px 120px 17px 129px;
+ }
+ .footer-text {
+  display: none;
+ }
+ .social-links {
+  padding: 0;
  }
 
 }
