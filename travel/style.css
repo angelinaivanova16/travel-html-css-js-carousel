@@ -555,6 +555,28 @@ h3 {
   display: block;
   padding-right: 10px;
  }
+ 
+/* 
+ .navig {
+  position:absolute;
+  z-index: 1;
+  background-color: rgba(242, 120, 92, 1);
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  right: -768px;
+  list-style: none;
+  /* margin-top: -50px; */
+  /* padding: 50px 0 450px 60px; */
+ /* } */ */
+ .navig.open {
+  width: 165px;
+  height: 250;
+  right: 0;
+  transition: all 1.3s ease;
+  display: flex;
+ }
 
  .container {
   width: 391px;
@@ -749,6 +771,7 @@ h3 {
  .story {
   width: 360px;
   height: 130px;
+  /* padding-bottom: 7px; */
  }
  .figure {
   width: 155px;
@@ -763,16 +786,30 @@ h3 {
   font-size: 9px;
   line-height: 11px;
   width: 195px;
+  height: 102px;
+ }
+ .cut-text {
+  display: none;
  }
 
  .all-stories {
   height: 628px;
-  padding: 0 0 0 0;
+  padding: 9px 1px 12px 0;
  }
 
  .stories-content {
   height: 657px;
   padding: 20px 0 0 0;
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(./assets/img/mobilefooter.jpg);
+  background-position: center 50px;
+ }
+
+ .stories-heading {
+  margin-bottom: 15px;
+ }
+
+ .btn3 {
+  margin: 0 0 15px 0;
  }
 
  .footer-container {
@@ -780,6 +817,8 @@ h3 {
  }
  .foot {
   padding: 15px 120px 17px 129px;
+  background-image: url(./assets/img/mobilefooter.jpg);
+  background-position: center -627px;
  }
  .footer-text {
   display: none;

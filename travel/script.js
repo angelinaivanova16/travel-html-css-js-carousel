@@ -3,6 +3,7 @@ const burgerIcon = document.querySelector('.hamburger');
 
 function toggleMenu() {
  burger.classList.toggle('is-active');
+//  navig.classList.toggle('open');
 }
 
 burgerIcon.addEventListener('click', toggleMenu);
