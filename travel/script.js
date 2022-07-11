@@ -1,3 +1,17 @@
+// burger-menu
+const burgerIcon = document.querySelector('.hamburger');
+
+function toggleMenu() {
+ burger.classList.toggle('is-active');
+//  navig.classList.toggle('open');
+}
+
+burgerIcon.addEventListener('click', toggleMenu);
+
+
+
+
+
 console.log(`110 баллов.
       
 1. Вёрстка валидная +10
