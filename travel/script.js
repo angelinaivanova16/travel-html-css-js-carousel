@@ -1,12 +1,19 @@
 // burger-menu
 const burgerIcon = document.querySelector('.hamburger');
+const links = document.querySelector('.navig');
 
 function toggleMenu() {
  burger.classList.toggle('is-active');
  navig.classList.toggle('open');
 }
 
+function hideMenu() {
+ navig.classList.remove('open');
+ burger.classList.remove('is-active');
+}
+
 burgerIcon.addEventListener('click', toggleMenu);
+links.addEventListener('click', hideMenu);
 
 
 
