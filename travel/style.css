@@ -551,7 +551,10 @@ h3 {
 }
 
 #burger.is-active {
- 
+ position: absolute;
+ left: 240px;
+ top: 15px;
+ /* transition: all 0.3s ease-in-out; */
 }
 
 
