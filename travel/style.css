@@ -75,6 +75,10 @@ body {
  font-size: 17px;
 }
 
+.mobile-link {
+ display: none;
+}
+
 .btn {
  display: flex;
  justify-content: center;
@@ -546,6 +550,10 @@ h3 {
  transform: translateY(-8px) rotate(-45deg);
 }
 
+#burger.is-active {
+ 
+}
+
 
 /* .............................................. @media .............................................. */
 
@@ -553,37 +561,56 @@ h3 {
 
  .hamburger {
   display: block;
+  z-index: 2;
   padding-right: 10px;
+  
  }
- 
-/* 
+
+ .nav {
+  overflow-x: hidden;
+  position: relative;
+ }
+ .close {
+  position: unset;
+ }
  .navig {
-  position:absolute;
+  position: absolute;
   z-index: 1;
+  width: 106px;
+  border-radius: 10px;
   background-color: rgba(242, 120, 92, 1);
-  height: 250px;
+  height: 176px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  right: -768px;
+  align-items: flex-end;
+  right: -225px;
   list-style: none;
-  /* margin-top: -50px; */
-  /* padding: 50px 0 450px 60px; */
- /* } */ */
+  margin-top: -60px;
+  padding: 44px 15px 30px 44px;
+ }
  .navig.open {
-  width: 165px;
-  height: 250;
   right: 0;
   transition: all 1.3s ease;
   display: flex;
  }
 
- .container {
-  width: 391px;
-  margin: 0 auto;
+ .nav-link {
+  font-size: 16px;
+  line-height: 21px;
  }
 
- .navig, .text-logo, .btn, h1, .plan-subheading {
+ .mobile-link {
+  display: block;
+ }
+
+ .container {
+  position: relative;
+  width: 391px;
+  margin: 0 auto;
+  overflow-x: hidden;
+ }
+
+ .text-logo, .btn, h1, .plan-subheading {
   display: none;
  }
 
@@ -599,7 +626,6 @@ h3 {
   background: url('./assets/img/garrett-parker-mobile.jpg');
   background-position: center -120px;
   background-repeat: no-repeat;
-  /* height: 131px; */
   padding: 0;
  }
 
