@@ -33,7 +33,7 @@ body {
 }
 
 .container {
- width: 1440px;
+ max-width: 1440px;
  margin: 0 auto;
 }
 
@@ -559,9 +559,22 @@ h3 {
 
 
 /* .............................................. @media .............................................. */
-
+@media screen and (max-width: 1441px) {
+ .container {
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+ }
+}
 @media screen and (max-width: 391px) {
 
+ .container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+ }
+ 
  .hamburger {
   display: block;
   z-index: 2;
@@ -604,13 +617,6 @@ h3 {
 
  .mobile-link {
   display: block;
- }
-
- .container {
-  position: relative;
-  width: 391px;
-  margin: 0 auto;
-  overflow-x: hidden;
  }
 
  .text-logo, .btn, h1, .plan-subheading {
