@@ -513,11 +513,8 @@ h3 {
 }
 
 .hamburger .line{
- /* width: 26px;
- height: 2px; */
  background-color: #FFFFFF;
  display: block;
- /* margin: 5px auto; */
  -webkit-transition: all 0.3s ease-in-out;
  -o-transition: all 0.3s ease-in-out;
  transition: all 0.3s ease-in-out;
@@ -554,7 +551,7 @@ h3 {
  position: absolute;
  left: 240px;
  top: 15px;
- /* transition: all 0.3s ease-in-out; */
+ /* transition: all 1.3s ease; */
 }
 
 
@@ -603,6 +600,7 @@ h3 {
   list-style: none;
   margin-top: -60px;
   padding: 44px 15px 30px 44px;
+  transition: all 1.3s ease;
  }
  .navig.open {
   right: 0;
