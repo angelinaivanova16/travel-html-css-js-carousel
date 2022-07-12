@@ -1,9 +1,13 @@
 // burger-menu
 const burgerIcon = document.querySelector('.hamburger');
 const links = document.querySelector('.navig');
+const n = document.querySelector('.plan');
+const k = document.querySelector('.destinations');
+const d = document.querySelector('.howitworks');
+
 
 function toggleMenu() {
- burger.classList.toggle('is-active');
+  burger.classList.toggle('is-active');
  navig.classList.toggle('open');
 }
 
@@ -14,7 +18,9 @@ function hideMenu() {
 
 burgerIcon.addEventListener('click', toggleMenu);
 links.addEventListener('click', hideMenu);
-
+n.addEventListener('click', hideMenu);
+k.addEventListener('click', hideMenu);
+d.addEventListener('click', hideMenu);
 
 
 
