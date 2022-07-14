@@ -28,14 +28,16 @@ html {
 }
 
 body {
+ width: 1440px;
  background: #FFFFFF;
- margin: 0;
+ margin: 0 auto;
+ overflow-x: hidden;
 }
 
-.container {
- max-width: 1440px;
- margin: 0 auto;
-}
+/* .container {
+ width: 1440px;
+ margin: auto;
+} */
 
 /* .............................................. header .............................................. */
 
@@ -556,14 +558,18 @@ h3 {
 
 
 /* .............................................. @media .............................................. */
-@media screen and (max-width: 1441px) {
+/* @media screen and (max-width: 1441px) {
  .container {
   width: 100%;
   margin: 0 auto;
   overflow-x: hidden;
  }
-}
+} */
 @media screen and (max-width: 391px) {
+
+ body {
+  width: 100%;
+ }
 
  .container {
   position: relative;
