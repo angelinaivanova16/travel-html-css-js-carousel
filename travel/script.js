@@ -27,14 +27,14 @@ let right = document.querySelector("#slide-right");
 const CAROUSEL = document.querySelector("#carousel")
 
 function moveLeft() {
-  console.log(1, CAROUSEL.classList)
-  CAROUSEL.classList.add("transition-left")
-  console.log(2, CAROUSEL.classList)
+  CAROUSEL.classList.add("transition-left");
+  left.removeEventListener("click", moveLeft);
+  right.removeEventListener("click", moveRight);
 }
 function moveRight() {
-  console.log(1, CAROUSEL.classList)
-  CAROUSEL.classList.add("transition-right")
-  console.log(2, CAROUSEL.classList)
+  CAROUSEL.classList.add("transition-right");
+  left.removeEventListener("click", moveLeft);
+  right.removeEventListener("click", moveRight);
 }
 
 left.addEventListener("click", moveLeft);

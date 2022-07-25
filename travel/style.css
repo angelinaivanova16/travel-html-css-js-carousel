@@ -877,22 +877,16 @@ h3 {
 
 /* .............................................. @slider .............................................. */
 
-@keyframes move-left {
- from {left: -1400px;}
- to {left: -540px;}
-}
-
 .transition-left {
- animation-name: move-left;
- animation-duration: 5s;
-}
-
-@keyframes move-right {
- from {right: 800px;}
- to {right: 540px;}
+  transform: translate(870px);
+  transition-property: transform;
+  transition-duration: 3s;
+  transition-timing-function: linear;
 }
 
 .transition-right {
- animation-name: move-right;
- animation-duration: 5s;
+ transform: translate(-870px);
+  transition-property: transform;
+  transition-duration: 3s;
+  transition-timing-function: linear;
 }
