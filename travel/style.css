@@ -314,24 +314,16 @@ h2, .des-header {
 }
 
 .slide {
- /* width: 800px; */
  cursor: pointer;
 }
-/* .slide2 { */
- /* width: 800px; */
-
- /* display: flex; */
- /* flex-direction: column; */
- /* justify-content: end; */
-/* } */
+.slide2 { 
+ cursor: pointer;
+ transition: all 3s ease;
+}
 .slide3 {
- /* width: 800px; */
  cursor: pointer;
-
- /* display: flex; */
- /* flex-direction: column; */
- /* justify-content: end; */
 }
+
 .des-text1 {
  display: none;
 }
@@ -880,13 +872,13 @@ h3 {
 .transition-left {
   transform: translate(870px);
   transition-property: transform;
-  transition-duration: 3s;
+  transition-duration: 2s;
   transition-timing-function: linear;
 }
 
 .transition-right {
  transform: translate(-870px);
   transition-property: transform;
-  transition-duration: 3s;
+  transition-duration: 2s;
   transition-timing-function: linear;
 }
