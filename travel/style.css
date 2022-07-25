@@ -293,11 +293,19 @@ h2, .des-header {
  margin-bottom: 80px;
 }
 
-.destinations {
- height: 800px;
+.slider-wrapper {
  width: 1440px;
+ height: 800px;
+ overflow: hidden;
+}
+
+.slider {
+ /* height: 800px; */
+ position: relative;
+ left: -1400px;
  display: flex;
  justify-content: space-between;
+ gap: 60px;
  margin-bottom: -24px;
 }
 
@@ -305,25 +313,24 @@ h2, .des-header {
  margin: 0;
 }
 
-.des-1 {
- width: 260px;
- background-image: url('./assets/img/des1.jpg');
+.slide {
+ /* width: 800px; */
+ cursor: pointer;
 }
-.des-2 {
- width: 800px;
- background-image: url('./assets/img/des2.jpg');
+/* .slide2 { */
+ /* width: 800px; */
 
- display: flex;
- flex-direction: column;
- justify-content: end;
-}
-.des-3 {
- width: 260px;
- background-image: url('./assets/img/des3.jpg');
+ /* display: flex; */
+ /* flex-direction: column; */
+ /* justify-content: end; */
+/* } */
+.slide3 {
+ /* width: 800px; */
+ cursor: pointer;
 
- display: flex;
- flex-direction: column;
- justify-content: end;
+ /* display: flex; */
+ /* flex-direction: column; */
+ /* justify-content: end; */
 }
 .des-text1 {
  display: none;
@@ -737,7 +744,7 @@ h3 {
   line-height: 19px;
  }
 
- .des-2, .des-3 {
+ .des2, .des-3 {
   display: none;
  }
  .des-1 {
@@ -748,7 +755,7 @@ h3 {
   flex-direction: column;
   gap: 57px;
  }
- .destinations {
+ .slider {
   width: 360px;
   height: 210px;
   overflow: hidden;
@@ -866,4 +873,26 @@ h3 {
   padding: 0;
  }
 
+}
+
+/* .............................................. @slider .............................................. */
+
+@keyframes move-left {
+ from {left: -1400px;}
+ to {left: -540px;}
+}
+
+.transition-left {
+ animation-name: move-left;
+ animation-duration: 5s;
+}
+
+@keyframes move-right {
+ from {right: 800px;}
+ to {right: 540px;}
+}
+
+.transition-right {
+ animation-name: move-right;
+ animation-duration: 5s;
 }

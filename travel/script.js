@@ -2,9 +2,7 @@
 const burgerIcon = document.querySelector('.hamburger');
 const links = document.querySelector('.navig');
 const n = document.querySelector('.plan');
-const k = document.querySelector('.destinations');
-const d = document.querySelector('.howitworks');
-
+// const k = document.querySelector('.destinations');
 
 function toggleMenu() {
   burger.classList.toggle('is-active');
@@ -19,8 +17,28 @@ function hideMenu() {
 burgerIcon.addEventListener('click', toggleMenu);
 links.addEventListener('click', hideMenu);
 n.addEventListener('click', hideMenu);
-k.addEventListener('click', hideMenu);
-// d.addEventListener('click', hideMenu);
+// k.addEventListener('click', hideMenu);
+
+
+// slider
+let left = document.querySelector("#slide-left");
+let active = document.querySelector("#slide-active");
+let right = document.querySelector("#slide-right");
+const CAROUSEL = document.querySelector("#carousel")
+
+function moveLeft() {
+  console.log(1, CAROUSEL.classList)
+  CAROUSEL.classList.add("transition-left")
+  console.log(2, CAROUSEL.classList)
+}
+function moveRight() {
+  console.log(1, CAROUSEL.classList)
+  CAROUSEL.classList.add("transition-right")
+  console.log(2, CAROUSEL.classList)
+}
+
+left.addEventListener("click", moveLeft);
+right.addEventListener("click", moveRight);
 
 
 
