@@ -1,2 +1,1 @@
-# angelinaivanova16-JSFEPRESCHOOL2022Q2
-Private repository for @angelinaivanova16
+https://angelinaivanova16.github.io/travel-html-css-js-carousel/travel/
